@@ -3,10 +3,11 @@
 
 body, html {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   border: 0%;
   margin: 0%;
   padding: 0%;
+  text-align: center;
 
 }
 
@@ -20,6 +21,8 @@ button:hover {
 .navigatorr {
   float: right;
   font-weight: bold;
+  margin: 0px;
+  padding: 0px;
 
 }
 
@@ -67,14 +70,17 @@ padding: 20px;
 
 /************************* Top Section *****************************************/
 .top-section {
-  background-image: url("/Users/homemac/Desktop/Remake-ALVSH copy/images/lighttyyyt.png");
+  background-image: url("/Users/homemac/Documents/GitHub/ALVSH-Services-/Remake-ALVSH copy/images/lighttyyyt.png");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; 
+  /**********background-color: #D9DD6B;**********/
   text-align: center;
   height: 100%;
   border: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 #main-s {
@@ -104,33 +110,63 @@ position: relative;
 .middle-section {
   height: 500px;
   width: 100%;
-  display: flex;
+  display: inline-flex;
+  text-align: center;
+  
 }
 
+.middle-wrap{
+  display: flex;
+  position: absolute;
+  text-align: center;
+ 
+ 
+}
+
+.service-img {
+  width: 120px;
+  height: 120px;
+  padding: 20px;
+
+}
 
 .service-div {
-height: 70px;
-width: auto;
-text-align: center;
+height: 50px;
+width: 300px;
 border: 20px;
-margin: 20px;
-padding: 20px;
+margin: 50px;
+padding: 50px;
 }
 
+.support-box {
+text-align: left;
+margin: 0;
+}
 
+.web-box {
+  text-align: center;
+}
 
-
+.education-box {
+  text-align: center;
+}
 
 
 /************************* Bottom Section *****************************************/
 .bottom-section {
   text-align: center;
-  background-color: #E1F1DD;
+  background-image: url("/Users/homemac/Documents/GitHub/ALVSH-Services-/Remake-ALVSH copy/images/autoremix.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   height: 300px;
   width: 100%;
 }
 
-
+#info-display {
+  display: none;
+}
 
 /*************************** Footer ******************************************************/
 #footi {
