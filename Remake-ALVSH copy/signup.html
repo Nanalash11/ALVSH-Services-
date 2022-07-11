@@ -2,50 +2,42 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/styles2.css">    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Become a Member | ALVSH</title>
 </head>
 <body>
-
-    <h2>Membership SignUp</h2>
-    <form action="index.html" method="post">
-        <div class="imgContainer">
-            <img src="" alt="">
-        </div>
-
-        <div class="signupContainer">
-            <label for="uEmail">Email Address</label>
-            <input type="email" placeholder="Enter Email" name="uEmail" id="usEmail">
-
-            <label for="uName"> Full Name</label>
-            <input type="text" placeholder="Enter Full Name" name="uName" id="">
-
-            <label for="pswrd"> Password</label>
-            <input type="text" placeholder="Enter Password" name="" id="">
-
-            <label for="cfmPswrd">Confirm Password</label>
-            <input type="text" placeholder="Confirm Password" name="cfmPswrd" id="">
-
-            <button type="submit">Login</button>
-
-            <div class="signupContainer">
-                <button type="button" class="cancelbtn">Cancel</button>
-                <span class="pswrd"> Already a user? <a href="#"Sign-in></a></span>
+    <div class="signUp_container">
+        <form action="index.html" id="signUp" method="post">
+            <h2>Membership SignUp</h2>
+            <div class="form__message form__message--error">Incorrect username/password combination</div>
+           
+           
+            <div class="imgContainer">
+                <img class="user_avator" src="https://cdn-icons-png.flaticon.com/512/2922/2922561.png" alt="">
             </div>
-
-
-
-
-        </div>
-        
-
-
-
-
-
-
-
-    </form>
     
+            <div class="signupContainer">
+                <label for="uEmail">Email Address</label>
+                <input type="email" placeholder="Enter Email" name="uEmail" id="usEmail" autofocus required>
+    
+                <label for="uName"> Full Name</label>
+                <input type="text" placeholder="Enter Full Name" name="uName" id="" required>
+    
+                <label for="pswrd"> Password</label>
+                <input type="password" placeholder="Enter Password" name="" id="" required>
+    
+                <label for="cfmPswrd">Confirm Password</label>
+                <input type="password" placeholder="Confirm Password" name="cfmPswrd" id="">
+    
+                <button class="sumbit_btn" type="submit">Submit</button>
+    
+                <div class="signupbtmContainer">
+                    <button type="button" class="cancelbtn">Cancel</button>
+                    <span class="pswrd"> Already a user? <a href="#"Sign-in></a></span>
+                </div>
+            </div>
+        </form>    
+    </div>    
 </body>
 </html>
