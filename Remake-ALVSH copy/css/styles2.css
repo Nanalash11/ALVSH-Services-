@@ -138,6 +138,8 @@ padding: 20px;
   height: 500px;
   width: 100%;
   position: relative;
+  background-color: #FCF8E8;
+  overflow: hidden;
   }
 
 .middle-title{
@@ -200,6 +202,7 @@ padding: 5%;
   width: 100%;
   padding-bottom: 0;
   position: relative;
+  overflow: hidden;
 }
 
 #bottom-overlay{
